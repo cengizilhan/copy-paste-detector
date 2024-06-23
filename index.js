@@ -60,7 +60,7 @@ function parseFile(filePath) {
 
 async function main() {
     const scriptsPath = process.argv[2] || "scripts";
-    const directory = path.resolve(__dirname, scriptsPath);
+    const directory = path.resolve(process.cwd(), scriptsPath); // Resolve relative to current working directory
     const files = getJsFiles(directory);
 
     let allIdentifiers = [];
@@ -97,7 +97,7 @@ async function main() {
     result.sort((a, b) => b.count - a.count);
 
     if (result.length > 0) {
-        const outputPath = path.join(__dirname, 'copy-paste-detector-results.json');
+        const outputPath = path.resolve(process.cwd(), 'copy-paste-detector-results.json');
         fs.writeFileSync(outputPath, JSON.stringify(result, null, 2));
         console.log(`Duplicated functions and variables written to ${outputPath}`);
     } else {

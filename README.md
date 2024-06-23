@@ -50,6 +50,8 @@ Output Example ( copy-paste-detector-results.json )
 ]
 ```
 
+https://github.com/cengizilhan/copy-paste-detector-js
 
+https://github.com/cengizilhan/
 
 

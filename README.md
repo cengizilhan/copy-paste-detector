@@ -7,22 +7,26 @@ This npm package analyzes JavaScript files to detect duplicated functions and va
 To use this package, install it globally or locally in your project:
 
 ```bash
-npm install copy-paste-detector
+npm install copy-paste-detector-js
 ```
 
 Usage
 You can run the package via npm script with optional parameters:
 
-bash
+and edit add that script line to your package.json
 ```
-npm run copy-paste-detector [scripts-path]
-```
-[scripts-path] (optional): Path to the directory containing JavaScript files to analyze. Defaults to scripts directory.
+ "scripts": {
+    "copy-paste-detector-js": "node node_modules/copy-paste-detector-js/index.js scripts2"
+  },
+  //scripts2 is folder name (optional)
+```  
 
 ## Example
 ```
-npm run detect my-scripts-folder
+npm run copy-paste-detector-js
 ```
+
+
 
 This will analyze JavaScript files in my-scripts-folder and generate a copy-paste-detector-results.json file in the current directory.
 

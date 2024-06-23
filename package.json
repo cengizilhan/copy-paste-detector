@@ -1,6 +1,6 @@
 {
   "name": "copy-paste-detector-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Detect duplicated functions and variables in JavaScript files.",
   "main": "index.js",
   "scripts": {

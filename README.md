@@ -18,8 +18,9 @@ and edit add that script line to your package.json
  "scripts": {
     "copy-paste-detector-js": "node node_modules/copy-paste-detector-js/index.js scripts2"
   },
-  //scripts2 is folder name (optional)
 ```  
+scripts2 is folder name (optional)
+
 
 ## Example
 ```

@@ -1,10 +1,10 @@
 {
-  "name": "copy-paste-detector",
-  "version": "1.0.0",
+  "name": "copy-paste-detector-js",
+  "version": "1.0.1",
   "description": "Detect duplicated functions and variables in JavaScript files.",
   "main": "index.js",
   "scripts": {
-    "copy-paste-detector": "node index.js"
+    "copy-paste-detector-js": "node index.js"
   },
   "keywords": ["copy-paste-detector", "copy-paste", "detector", "duplicated", "functions", "variables", "javascript", "js", "nodejs", "node.js", "node"],
   "author": "cengizilhan",

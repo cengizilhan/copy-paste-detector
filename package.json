@@ -6,8 +6,8 @@
   "scripts": {
     "copy-paste-detector": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["copy-paste-detector", "copy-paste", "detector", "duplicated", "functions", "variables", "javascript", "js", "nodejs", "node.js", "node"],
+  "author": "cengizilhan",
   "license": "ISC",
   "dependencies": {
     "acorn": "^8.12.0",
